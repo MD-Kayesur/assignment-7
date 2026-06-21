@@ -1,6 +1,3 @@
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
 
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
@@ -15,4 +12,4 @@ export default {
   plugins: [
     require('daisyui'),
   ],
-};       
+};
